@@ -89,7 +89,7 @@ Implement the server logic to process asynchronous webhook notifications from Ta
 
 Call the capture endpoint to transfer the authorized amount to the merchant account once you get authorized in the webhook.
 
-  * **API Doc:** [Capture]([https://docs.tabby.ai/pay-in-4-custom-integration/webhooks](https://docs.tabby.ai/api-reference/payments/capture-a-payment)
+  * **API Doc:** [Capture](https://docs.tabby.ai/api-reference/payments/capture-a-payment)
 
 
  -----
