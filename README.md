@@ -1,4 +1,4 @@
-# Tabby Integration Handbook: Backend Team Guide
+# Tabby Integration Handbook: 
 
 This guide outlines the backend steps for integrating the Tabby payment gateway.
 
