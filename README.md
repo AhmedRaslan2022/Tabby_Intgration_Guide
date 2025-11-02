@@ -10,8 +10,8 @@ This guide outlines the backend steps for integrating the Tabby payment gateway.
 
 Start by carefully reading the official Tabby API documentation to understand all available endpoints, request/response structures, and authentication methods.
 
-  * **Official Tabby Docs:** [https://docs.tabby.ai/](https://www.google.com/search?q=https://docs.tabby.ai/)
-  * **API Reference:** [https://docs.tabby.ai/api-reference/](https://www.google.com/search?q=https://docs.tabby.ai/api-reference/)
+  * **Official Tabby Docs:** [https://docs.tabby.ai/](https://docs.tabby.ai/introduction/what-is-tabby)
+  * **API Reference:** [https://docs.tabby.ai/api-reference/](https://docs.tabby.ai/api-reference/)
 
 -----
 
@@ -99,3 +99,18 @@ Call the capture endpoint to transfer the authorized amount to the merchant acco
 
   * If the application **only** operates in KSA (Saudi Arabia), ensure your logic does not return Tabby as a payment option for clients outside of KSA.
   * Alternatively, ensure other countries are removed during the user registration process.
+
+-----
+
+ 
+
+## 9. &#128274; Testing & Go-Live Checklist (Frontend Collaboration)
+
+The final phase involves a joint effort with the frontend teams to validate the customer journey, UI experience, and full end-to-end processing across all scenarios using the **Sandbox environment**.
+
+ 
+[Full Testing Checklist](https://docs.tabby.ai/pay-in-4-custom-integration/full-testing-checklist) 
+
+[Testing Credintials](https://docs.tabby.ai/testing-guidelines/testing-credentials)
+
+
