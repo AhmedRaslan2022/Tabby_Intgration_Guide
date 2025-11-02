@@ -86,4 +86,4 @@ Implement the server logic to process asynchronous webhook notifications from Ta
 ## 7\. 🌎 Handle Geographic Restrictions
 
   * If the application **only** operates in KSA (Saudi Arabia), ensure your logic does not return Tabby as a payment option for clients outside of KSA.
-  * Alternatively, ensure other countries are removed during the merchant registration process.
+  * Alternatively, ensure other countries are removed during the user registration process.
