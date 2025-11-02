@@ -47,13 +47,14 @@ Before displaying Tabby as a payment option to the user, you must perform a back
 1.  When the frontend requests available payment options (e.g., on the checkout page), send a **"Create Session" request** (identical to Step 3) to Tabby.
 2.  This request checks the user's eligibility and whether the order amount is within the allowed limits for your merchant account.
 3.  Based on the response:
-      * **If approved:** Return Tabby as an available option to the frontend.
+      * **If approved:** Return Tabby as an available option to the frontend. Your response must include the Title, Description, and Logo URL provided in the docs. 
       * **If rejected:** Return Tabby as a not selectable option. You must also return the rejection reason, mapping it to the standard messages provided in the documentation (this allows the frontend to show why it's disabled).
 
 <!-- end list -->
 
   * **API Doc:** [Background Pre-scoring Check](https://docs.tabby.ai/pay-in-4-custom-integration/checkout-flow#background-pre-scoring-check)
 
+  * **Display Details Reference:**  For details on what display fields to return (Title, Description, Logo), refer to the Tabby on Checkout section: https://docs.tabby.ai/pay-in-4-custom-integration/checkout-flow#tabby-on-checkout
 -----
 
 ## 5\. 🔀 Implement Redirection URLs
