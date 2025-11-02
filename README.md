@@ -19,7 +19,7 @@ Start by carefully reading the official Tabby API documentation to understand al
 
 Register your webhook endpoint to receive asynchronous updates from Tabby (e.g., payment status changes).
 
-  * **API Doc:** [Create a Session (for webhook registration info)](https://docs.tabby.ai/api-reference/checkout/create-a-session)
+  * **API Doc:** [Webhook Registration](https://docs.tabby.ai/api-reference/webhooks/register-a-webhook)
   * If you are unfamiliar with webhooks, review the [General Payment Integration Handbook](https://github.com/AhmedRaslan2022/payment-integration-handbook/tree/main).
 
  * After a successful registration call, you must call the GET Retrieve all webhooks endpoint. Check the response list to confirm that your new webhook URL is present. This verifies that the registration was successful.
