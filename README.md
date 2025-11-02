@@ -71,7 +71,7 @@ After the user attempts payment on Tabby's page, they will be redirected back to
 
 -----
 
-## 6\. 📢 Handle Webhook Events
+## 6\. 📢 Handle Webhook Events 
 
 Implement the server logic to process asynchronous webhook notifications from Tabby. This is critical for confirming payment status independently of the user's redirection.
 
@@ -82,9 +82,20 @@ Implement the server logic to process asynchronous webhook notifications from Ta
   * Refer to the [General Payment Integration Handbook](https://github.com/AhmedRaslan2022/payment-integration-handbook/tree/main) for best practices on handling webhooks.
   * **API Doc:** [Webhooks](https://docs.tabby.ai/pay-in-4-custom-integration/webhooks)
 
+
 -----
 
-## 7\. 🌎 Handle Geographic Restrictions
+## 7\. Capture the Authorization
+
+Call the capture endpoint to transfer the authorized amount to the merchant account once you get authorized in the webhook.
+
+  * **API Doc:** [Capture]([https://docs.tabby.ai/pay-in-4-custom-integration/webhooks](https://docs.tabby.ai/api-reference/payments/capture-a-payment)
+
+
+ -----
+
+
+## 8\. 🌎 Handle Geographic Restrictions
 
   * If the application **only** operates in KSA (Saudi Arabia), ensure your logic does not return Tabby as a payment option for clients outside of KSA.
   * Alternatively, ensure other countries are removed during the user registration process.
