@@ -67,7 +67,7 @@ After the user attempts payment on Tabby's page, they will be redirected back to
 
 **Important:** Use the exact user-facing messages (in both Arabic and English) as specified in the documentation for each case.
 
-  * **API Doc:** [Redirection to the Store](https://docs.tabby.ai/pay-in-4-custom-integration/checkout-flow)
+  * **API Doc:** [Redirection to the Store](https://docs.tabby.ai/pay-in-4-custom-integration/checkout-flow#redirection-to-the-store)
 
 -----
 
