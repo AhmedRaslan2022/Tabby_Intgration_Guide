@@ -97,8 +97,7 @@ Call the capture endpoint to transfer the authorized amount to the merchant acco
 
 ## 8\. 🌎 Handle Geographic Restrictions
 
-  * If the application **only** operates in KSA (Saudi Arabia), ensure your logic does not return Tabby as a payment option for clients outside of KSA.
-  * Alternatively, ensure other countries are removed during the user registration process.
+   If the application **only** operates in KSA (Saudi Arabia), ensure your logic does not return Tabby as a payment option for clients outside of KSA.
 
 -----
 
